@@ -7,7 +7,7 @@ fi
 
 # User specific environment and startup programs
 
-PATH=$PATH:$HOME:$HOME/bin:/bin:/sbin:/usr/sbin:/usr/bin:/usr/local/bin:$HOME/fleapay-utils-main:/usr/local/mysql/bin:$JAVA_HOME/bin
+PATH=$PATH:$HOME:$HOME/bin:/bin:/sbin:/usr/sbin:/usr/bin:/usr/local/bin:/usr/local/mysql/bin:$JAVA_HOME/bin:$HOME/fleapay-utils-main:
 LD_LIBRARY_PATH=/usr/local/lib
 
 export PATH LD_LIBRARY_PATH
@@ -16,9 +16,10 @@ export SVN_EDITOR=vi
 
 unset USERNAME
 alias l='ls -l'
-alias svnu='rmdstore; rmunderscores; svn status; svn update'
-alias rmunderscores='find . -name \._\* | xargs rm -rf'
-alias rmdstore='find . -name \.DS_Store | xargs rm -rf'
+alias svnu='rmdstore; rmunderscores; rmphplogs; svn status; svn update'
+alias rmunderscores='find ./ -name \._\* | xargs rm -rf'
+alias rmdstore='find ./ -name \.DS_Store | xargs rm -rf'
+alias rmphplogs='find ./ -name php_errors.log -print0 | xargs -0 rm -rf'
 
 SSH_ENV=$HOME/.ssh/environment
 
