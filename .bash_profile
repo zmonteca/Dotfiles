@@ -7,7 +7,7 @@ fi
 
 # User specific environment and startup programs
 
-PATH=$PATH:$HOME:$HOME/bin:/bin:/sbin:/usr/sbin:/usr/bin:/usr/local/bin:/usr/local/mysql/bin:$JAVA_HOME/bin:$HOME/fleapay-utils-main:
+PATH=$PATH:$HOME:$HOME/bin:/bin:/sbin:/usr/sbin:/usr/bin:/usr/local/bin:/usr/local/mysql/bin:$JAVA_HOME/bin:$HOME/fleapay-utils-main/utilities:
 LD_LIBRARY_PATH=/usr/local/lib
 
 export PATH LD_LIBRARY_PATH
