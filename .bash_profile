@@ -7,7 +7,7 @@ fi
 
 # User specific environment and startup programs
 
-PATH=$PATH:$HOME:$HOME/bin:/bin:/sbin:/usr/sbin:/usr/bin:/usr/local/bin:/usr/local/mysql/bin:$JAVA_HOME/bin:$HOME/fleapay-utils-main/utilities:
+PATH=$PATH:$HOME:/usr/local/mysql/bin:$HOME/gulo-utils-main/utilities:/usr/local/rvm/rubies/default/bin
 LD_LIBRARY_PATH=/usr/local/lib
 
 export PATH LD_LIBRARY_PATH
@@ -20,6 +20,8 @@ alias svnu='rmdstore; rmunderscores; rmphplogs; svn status; svn update'
 alias rmunderscores='find ./ -name \._\* | xargs rm -rf'
 alias rmdstore='find ./ -name \.DS_Store | xargs rm -rf'
 alias rmphplogs='find ./ -name php_errors.log -print0 | xargs -0 rm -rf'
+alias laravel-clear='composer.phar dump-autoload; php artisan clear-compiled; php artisan cache:clear; php artisan config:clear; php artisan route:clear; php artisan view:clear;'
+alias node-clear='rm -rf node_modules; rm package-lock.json; npm cache clear --force; npm install;'
 
 SSH_ENV=$HOME/.ssh/environment
 
