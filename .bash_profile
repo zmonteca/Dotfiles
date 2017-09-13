@@ -1,13 +1,38 @@
 # .bash_profile
 
+PATH=$PATH:$HOME
+
+# if running bash
+if [ -n "$BASH_VERSION" ]; then
+    # include .bashrc if it exists
+    if [ -f "$HOME/.bashrc" ]; then
+        . "$HOME/.bashrc"
+    fi
+fi
+
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
+fi
+
+if [ -d "$HOME/gulo-utils-main/utilities" ] ; then
+    PATH="$HOME/gulo-utils-main/utilities:$PATH"
+fi
+
+if [ -d "/usr/local/mysql/bin" ] ; then
+    PATH="/usr/local/mysql/bin:$PATH"
+fi
+
+if [ -d "/usr/local/rvm/rubies/default/bin" ] ; then
+    PATH="/usr/local/rvm/rubies/default/bin:$PATH"
+fi
+
 # Get the aliases and functions
 if [ -f ~/.bashrc ]; then
         . ~/.bashrc
 fi
 
 # User specific environment and startup programs
-
-PATH=$PATH:$HOME:/usr/local/mysql/bin:$HOME/gulo-utils-main/utilities:/usr/local/rvm/rubies/default/bin
 LD_LIBRARY_PATH=/usr/local/lib
 
 export PATH LD_LIBRARY_PATH
