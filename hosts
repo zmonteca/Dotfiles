@@ -8,66 +8,24 @@
 fe80::1%lo0     localhost
 10.19.45.20     foxxy.gulosolutions.com foxxy
 10.19.45.10     mrfox.gulosolutions.com mrfox
-#10.24.1.21      bigglesworth.gulosolutions.com  bigglesworth
-#10.24.1.22      fatbastard.gulosolutions.com    fatbastard
-64.81.228.160   mustafa.gulosolutions.com       mustafa
-64.34.165.202   drevil.gulosolutions.com        drevil
 104.130.154.14  goldmember.gulosolutions.com    goldmember
-#198.61.209.22  goldmember.gulosolutions.com    goldmember
 67.23.10.210    remembers.gulosolutions.com     remembers
 23.253.69.198   vanessa.gulosolutions.com       vanessa
-23.253.69.198   nutrition.org                   nutrition
-23.253.69.198   www.nutrition.org               nutrition
 
 #cra
-#166.78.51.180  corn.org                        cra2
-#166.78.51.180  crachecksample.org              ccsp
-#166.78.51.166  crachecksample.org              ccsp
-#166.78.51.166  corn.org                        cra1
-#66.216.68.14   corn.org                        cra1
 166.78.128.7    cra-prd-l-db-01.corn.org        cra-db1
 166.78.51.166   cra-prd-l-web01.corn.org        cra1
 166.78.51.180   cra-prd-l-web02.corn.org        cra2
 
-#162.209.67.82  www.nutrition.org               nutrition
-#162.209.67.82  nutrition.org                   nutrition
-#50.56.239.130   fleapay-image.com               fleapay-image
-#23.253.241.219 fleapay.com                     fleapay
-#23.253.241.219 www.fleapay.com                 fleapay
-#50.56.239.18    db.fleapay.com                  fleapay-db
-#38.126.22.159   cme-equotes.com                 equotes
-#174.143.156.119 changingscene.com               cs
-#174.143.156.120 changingscene.com               csdb
-#204.232.199.158 changingscene.com               csbeta
-#174.143.3.194   happinessprojecttoolbox.com     happy
-#174.143.3.195   happinessprojecttoolbox.com     happydb
-#67.23.17.106    twitpickem.com                  pickem
-#164.177.151.216 soschavez.com                   chavez
-#69.167.140.209  host1.depositagift.com          dag-host
-#69.167.140.209 www.depositagift.com            dag-host
-#50.28.4.115    mydagsite.com                   dag-my
-#50.28.4.115    *.mydagsite.com                 dag-my
-#50.28.4.191     depositagift.com               dag-www
-#50.28.4.191     www.depositagift.com            dag-www
-#67.23.10.210   tzer0.com
-#67.23.10.210   www.tzer0.com
+#dunbar
+23.253.245.184  dunbarinvoice                   dunbar
 
-23.253.125.88	node-0.fleapay.com
-2001:4800:7817:0103:d732:0e0f:ff05:85f3	node-0.fleapay.com
-10.208.164.218	node-0.fleapay.com
-10.208.199.171	fembots.gulosolutions.com
-23.253.241.219	fembots.gulosolutions.com
-2001:4800:7817:104:be76:4eff:fe05:5a2c	fembots.gulosolutions.com
-10.209.41.190	basil.gulosolutions.com
-104.239.143.225	basil.gulosolutions.com
-2001:4800:7818:104:be76:4eff:fe05:c28e	basil.gulosolutions.com
-10.208.98.159	vanessa.gulosolutions.com
-2001:4800:7815:105:be76:4eff:fe05:c309	vanessa.gulosolutions.com
-23.253.69.198	vanessa.gulosolutions.com
+#dag
+50.28.4.115     node-1.depositagift.com         dag-node-1
+67.227.229.154  db-master.depositagift.com      dag-db-master
 
 # QuickBooks Pro 2015
 127.0.0.1       entgwgtm.lb.intuit.com
 127.0.0.1       entgw.lb.intuit.com
 # Block SRS Labs Activation
 127.0.0.1       activate.adobe.com
-
