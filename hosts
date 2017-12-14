@@ -25,6 +25,9 @@ fe80::1%lo0     localhost
 #dunbar
 23.253.245.184  dunbarinvoice                   dunbar
 
+#side-out
+192.81.213.133  side-out.org                    sideout
+
 #dag
 50.28.4.115     node-1.depositagift.com         dag-node-1
 67.227.229.154  db-master.depositagift.com      dag-db-master
