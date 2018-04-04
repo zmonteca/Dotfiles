@@ -26,8 +26,8 @@ fe80::1%lo0     localhost
 23.253.245.184  dunbarinvoice                   dunbar
 
 #up4
-23.253.111.130  up4probiotics                   up4
-23.253.234.56   pio.up4probiotics.com           up4-pio:wq
+23.253.111.130  up4-www-master-01               up4
+166.78.47.72    up4-www-slave-02                up4-s02
 
 #side-out
 192.81.213.133  side-out.org                    sideout
