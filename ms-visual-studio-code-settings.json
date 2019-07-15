@@ -23,5 +23,22 @@
     // When opening a file, `editor.tabSize` and `editor.insertSpaces`
     // will be detected based on the file contents. Set to false to keep
     // the values you've explicitly set, above.
-    "editor.detectIndentation": false
+    "editor.detectIndentation": false,
+
+    // file specific spacing settings
+    "[css]": {
+        "editor.tabSize": 2
+    },
+    "[scss]": {
+        "editor.tabSize": 2
+    },
+    "[html]": {
+        "editor.tabSize": 4
+    },
+    "[php]": {
+        "editor.tabSize": 4
+    },
+    "[javascript]": {
+        "editor.tabSize": 4
+    }
  }
