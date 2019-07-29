@@ -25,6 +25,9 @@
     // the values you've explicitly set, above.
     "editor.detectIndentation": false,
 
+    // We want this false because a lot of php partials have open tags
+    "editor.matchBrackets": false,
+
     // file specific spacing settings
     "[css]": {
         "editor.tabSize": 2
@@ -40,5 +43,14 @@
     },
     "[javascript]": {
         "editor.tabSize": 4
-    }
+    },
+
+    // format html
+    "php-cs-fixer.formatHtml": true,
+
+    // fix semi colons
+    "php-cs-fixer.autoFixBySemicolon": true,
+
+    // format php & html on save
+    "php-cs-fixer.onsave": true
  }
