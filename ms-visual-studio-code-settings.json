@@ -52,5 +52,15 @@
     "php-cs-fixer.autoFixBySemicolon": true,
 
     // format php & html on save
-    "php-cs-fixer.onsave": true
+    "php-cs-fixer.onsave": true,
+
+    // php cs path
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+
+    // diff editor settings
+    "diffEditor.renderSideBySide": false,
+
+    // markdown settings
+    "markdown.extension.toc.githubCompatibility": true,
+    "markdown.extension.preview.autoShowPreviewToSide": true
  }
