@@ -26,7 +26,7 @@
     "editor.detectIndentation": false,
 
     // We want this false because a lot of php partials have open tags
-    "editor.matchBrackets": false,
+    "editor.matchBrackets": "always",
 
     // file specific spacing settings
     "[css]": {
@@ -62,5 +62,58 @@
 
     // markdown settings
     "markdown.extension.toc.githubCompatibility": true,
-    "markdown.extension.preview.autoShowPreviewToSide": true
+    "markdown.extension.preview.autoShowPreviewToSide": true,
+    "php-cs-fixer.lastDownload": 1584043554551,
+
+    "search.showLineNumbers": true,
+
+    // todo tree settings
+    "todo-tree.filtering.ignoreGitSubmodules": true,
+    "todo-tree.general.debug": true,
+    "todo-tree.general.enableFileWatcher": true,
+    "todo-tree.general.tagGroups": {
+        "FIXME": [
+            "FIXME",
+            "FIXIT",
+            "FIX",
+        ],
+        "TODO": [
+            "TODO",
+            "TOODOO",
+            "TOODO",
+        ],
+        "NOTE": [
+            "NOTE",
+            "NOT",
+            "NTE",
+        ]
+    },
+    "todo-tree.highlights.defaultHighlight": {
+        "icon": "alert",
+        "type": "text",
+        "foreground": "red",
+        "background": "white",
+        "opacity": 50,
+        "iconColour": "blue"
+    },
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "foreground": "#FF8C00",
+            "background": "#FF4500",
+            "iconColour": "#FF8C00",
+            "opacity": 50,
+            "icon": "check",
+            "type": "line",
+            "gutterIcon": true
+        },
+        "FIXME": {
+            "foreground": "#CD5C5C",
+            "background": "#800000",
+            "iconColour": "red",
+            "opacity": 50,
+            "icon": "flame",
+            "type": "line",
+            "gutterIcon": true
+        }
+    }
  }
